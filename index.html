@@ -1,153 +1,198 @@
 <!DOCTYPE html>
-<html lang="FR">
-	<head>
-		<meta charset="UTF-8">
-		<title>
-			Élevage d'oies du Pech
-		</title>
-		<meta name="DESCRIPTION" content="Informations &amp; tarifs de l'élevage d'oies du Pech">
-		<meta name="AUTHOR" content="Jean-Pierre Dubois">
-		<link rel="STYLESHEET" href="MAIN.CSS" type="TEXT/CSS" media="SCREEN">
-	</head>
-	<body>
-		<ul id="produits">
-			<li>
-				Bloc de foie gras d'oie
-				<ul id="conditionnements">
-					<li>Boîte de 130g
-						<div id="prix">
-						15.50€
-						</div>
-					</li>
-					<li>Boîte de 200g
-						<div id="prix">
-						22.50€
-						</div>
-					</li>
-					<li>Boîte de 400g
-						<div id="prix">
-						41.00€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Foie gras d'oie entier
-				<aside>Médaille de Bronze Paris 2005 &amp 2009, Médaille d'argent Paris 2004, Palmes d'or du Périgord 2002</aside>
-				<ul id="conditionnements">
-					<li>Boîte de 130g
-						<div id="prix">
-						19.50€
-						</div>
-					</li>
-					<li>Boîte de 190g
-						<div id="prix">
-						28.00€
-						</div>
-					</li>
-					<li>Bocal de 190g
-						<div id="prix">
-						30.00€
-						</div>
-					</li>
-					<li>Boîte de 260g
-						<div id="prix">
-						35.50€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Foie gras d'oie entier mi-cuit
-				<aside>Médaille de Bronze Paris 2004 &amp 2005</aside>
-				<aside>A conserver au réfrigérateur</aside>
-				<ul id="conditionnements">
-					<li>Bocal de 190g
-						<div id="prix">
-						30.50€
-						</div>
-					</li>
-				</ul>
-			<li>
-				Pâté de foie-gras d'oie truffé <aside>50% foie gras d'oie, 1% truffe</aside>
-				<ul id="conditionnements">
-					<li>Boîte de 200g
-						<div id="prix">
-						17.00€
-						</div>
-					</li>
-				</ul>
-					
-			</li>
-			<li>
-				Confit d'oie (aile ou cuisse)
-				<ul id="conditionnements">
-					<li>Boîte de 200g
-						<div id="prix">
-						10.50€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Confit d'oie (aile et cuisse)
-				<ul id="conditionnements">
-					<li>Boîte de 1500g
-						<div id="prix">
-						19.00€
-						</div>
-					</li>
-				</ul>
-			<li>
-				Cou d'oie farci au foie gras (20% foie gras)
-				<ul id="conditionnements">
-					<li>Boîte de 750g
-						<div id="prix">
-						15.00€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Gésiers d'oie
-				<ul id="conditionnements">
-					<li>Boîte de 400g
-						<div id="prix">
-						8.00€
-						</div>
-					</li>
-					<li>Boîte de 800g
-						<div id="prix">
-						12.00€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Rillettes pure oie
-				<ul id="conditionnements">
-					<li>Boîte de 200g
-						<div id="prix">
-						5.0€
-						</div>
-					</li>
-					<li>Boîte de 270g
-						<div id="prix">
-						6.00€
-						</div>
-					</li>
-				</ul>
-			</li>
-			<li>
-				Graisse d'oie
-				<ul id="conditionnements">
-					<li>Boîte de 700g
-						<div id="prix">
-						4.00€
-						</div>
-					</li>
-				</ul>
+<html version="HTML+RDFa 1.1" lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>
+		Élevage d'oies du Pech
+	</title>
+	<meta name="DESCRIPTION" content="Informations &amp; tarifs de l'élevage d'oies du Pech">
+	<meta name="AUTHOR" content="Jean-Pierre Dubois">
+	<link rel="STYLESHEET" href="MAIN.CSS" type="TEXT/CSS" media="SCREEN">
+</head>
+<body>
+	<div xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:gr="http://purl.org/goodrelations/v1#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:vcard="http://www.w3.org/2006/vcard/ns#">
+
+	<div typeof="gr:BusinessEntity" about="#company">
+		<div property="gr:legalName" content="Élevage d&#039;oies du Pech"></div>
+		<div property="vcard:tel" content="+33 5 53 28 84 73"></div>
+		<div rel="vcard:adr">
+			<div typeof="vcard:Address">
+				<div property="vcard:country-name" content="France"></div>
+				<div property="vcard:locality" content="Paulin"></div>
+				<div property="vcard:postal-code" content="24590"></div>
+				<div property="vcard:street-address" content="Le Pech"></div>
+			</div>
+		</div>
+		<div rel="foaf:page" resource=""></div>
+	</div>
+</div>
+
+<div typeof="gr:Location" about="#store">
+	<div rev="gr:hasPOS" resource="http://xavieralexandre.github.com/pech/#company"></div>
+	<div property="gr:name" content="Élevage d&#039;oies du Pech"></div>
+	<div property="vcard:tel" content="+33 5 53 28 84 73"></div>
+	<div rel="vcard:adr">
+		<div typeof="vcard:Address">
+			<div property="vcard:country-name" content="France"></div>
+			<div property="vcard:locality" content="Paulin"></div>
+			<div property="vcard:postal-code" content="24590"></div>
+			<div property="vcard:street-address" content="Le Pech"></div>
+		</div>
+	</div>
+	<div rel="vcard:geo">
+		<div>
+			<div property="vcard:latitude" content="45.00630" datatype="xsd:float"></div>
+			<div property="vcard:longitude" content="1.35385" datatype="xsd:float"></div>
+		</div>
+	</div>
+	<div rel="foaf:page" resource=""></div>
+</div>
+</div>
+
+<ul id="produits">
+<li>
+	Bloc de foie gras d'oie
+	<ul id="conditionnements">
+		<li>Boîte de 130g
+			<div id="prix">
+				15.50€
+			</div>
+		</li>
+		<li>Boîte de 200g
+			<div id="prix">
+				22.50€
+			</div>
+		</li>
+		<li>Boîte de 400g
+			<div id="prix">
+				41.00€
+			</div>
+		</li>
+	</ul>
+</li>
+<li>
+	Foie gras d'oie entier
+	<aside>Médaille de Bronze Paris 2005 &amp 2009, Médaille d'argent Paris 2004, Palmes d'or du Périgord 2002</aside>
+	<ul id="conditionnements">
+		<li>Boîte de 130g
+			<div id="prix">
+				19.50€
+			</div>
+		</li>
+		<li>Boîte de 190g
+			<div id="prix">
+				28.00€
+			</div>
+		</li>
+		<li>Bocal de 190g
+			<div id="prix">
+				30.00€
+			</div>
+		</li>
+		<li>Boîte de 260g
+			<div id="prix">
+				35.50€
+			</div>
+		</li>
+	</ul>
+</li>
+<li>
+	Foie gras d'oie entier mi-cuit
+	<aside>Médaille de Bronze Paris 2004 &amp 2005</aside>
+	<aside>A conserver au réfrigérateur</aside>
+	<ul id="conditionnements">
+		<li>Bocal de 190g
+			<div id="prix">
+				30.50€
+			</div>
+		</li>
+	</ul>
+	<li>
+		Pâté de foie-gras d'oie truffé <aside>50% foie gras d'oie, 1% truffe</aside>
+		<ul id="conditionnements">
+			<li>Boîte de 200g
+				<div id="prix">
+					17.00€
+				</div>
 			</li>
 		</ul>
-	</body>
+
+	</li>
+	<li>
+		Confit d'oie (aile ou cuisse)
+		<ul id="conditionnements">
+			<li>Boîte de 200g
+				<div id="prix">
+					10.50€
+				</div>
+			</li>
+		</ul>
+	</li>
+	<li>
+		Confit d'oie (aile et cuisse)
+		<ul id="conditionnements">
+			<li>Boîte de 1500g
+				<div id="prix">
+					19.00€
+				</div>
+			</li>
+		</ul>
+		<li>
+			Cou d'oie farci au foie gras (20% foie gras)
+			<ul id="conditionnements">
+				<li>Boîte de 750g
+					<div id="prix">
+						15.00€
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Gésiers d'oie
+			<ul id="conditionnements">
+				<li>Boîte de 400g
+					<div id="prix">
+						8.00€
+					</div>
+				</li>
+				<li>Boîte de 800g
+					<div id="prix">
+						12.00€
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Rillettes pure oie
+			<ul id="conditionnements">
+				<li>Boîte de 200g
+					<div id="prix">
+						5.0€
+					</div>
+				</li>
+				<li>Boîte de 270g
+					<div id="prix">
+						6.00€
+					</div>
+				</li>
+			</ul>
+		</li>
+		<li>
+			Graisse d'oie
+			<ul id="conditionnements">
+				<li>Boîte de 700g
+					<div id="prix">
+						4.00€
+					</div>
+				</li>
+			</ul>
+		</li>
+	</ul>
+</body>
 </html>
