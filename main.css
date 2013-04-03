@@ -9,9 +9,18 @@ body{
 	color: rgb(112,51,73);
 }
 
+header{
+	font-weight:bold;
+}
+
 #produits{
 	list-style-type: none;
 	padding: 1em;
+}
+
+aside{
+	font-size: .75em;
+	font-style: italic;
 }
 
 #conditionnements{
